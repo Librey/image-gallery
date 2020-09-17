@@ -1,0 +1,657 @@
+@media(max-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        overflow-x: hidden;
+    } 
+    
+    .nav{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        box-shadow: 0px 0px 10px 0px;
+        position: fixed;
+        background-color: white;
+        z-index: 2;
+    }
+    .ul{
+        display: none;
+    }
+    .a{
+        color: black;
+        text-decoration: none;
+        margin: auto;
+    }
+    .a:hover{
+        background-color: lightgray;
+        padding: 6px;
+    }
+    
+    .div{
+        width: 100%;
+        height: 100vh;
+        background-image: url(image/viktor-jakovlev-H0vuplqoX0c-unsplash.jpg);
+        background-size: cover;
+        /* background-position: 50% 50%; */
+        background-repeat: no-repeat;
+        /* text-align:center; */
+        /* overflow-x: hidden; */
+    }
+    .h1{
+        color: white;
+        left: 0;
+        line-height: 200px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+    }
+    .span{
+        background-color: black;
+        opacity: 0.8;
+        padding: 15px;
+        margin-right: 5px;
+    }
+    .h2{
+         margin: 30px;
+    }
+
+    .sec{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 30px 15px 0px 15px;
+        /* align-items: center; */
+    }
+    .sec>div{
+        /* margin: auto; */
+        width: 94%;
+        /* align-self: center; */
+        /* position: relative; */
+        margin: 30px 0px 0px 0px;
+
+
+    }
+    .img2{
+        width: 100%;
+    }
+    .p{
+        color: white;
+        background-color: black;
+        width: 130px;
+        position: absolute;
+        padding: 10px;
+    }
+    .img3{
+        width: 100%;
+    }
+    .p2{
+        color: white;
+        background-color: black;
+        width: 130px;
+        position: absolute;
+        padding: 10px;
+    }
+    
+    .img4{
+        width: 100%;
+    }
+    .p3{
+        color: white;
+        background-color: black;
+        width: 130px;
+        position: absolute;
+        padding: 10px;
+    }
+    .img5{
+        width: 100%;
+    }
+    .p4{
+        color: white;
+        background-color: black;
+        width: 130px;
+        position: absolute;
+        padding: 10px;
+    }
+  
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 15px 0px 15px;    
+    }
+    .sec2>div{
+        width: 94%;
+        margin: 30px 0px 0px 0px;
+    }
+    .dd{
+        width: 100%;
+        padding: 30px;
+    }
+    .hr{
+        width: 97%;
+        border: 1px whitesmoke solid;
+    }
+    .dd h2,p,.hr{
+        margin-bottom: 20px;
+    }
+    .khalid{
+        width: 100%;
+
+    }
+    .gg{
+        width: 100%;
+    }
+    .aa{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btt{
+       padding-top: 8px;
+       padding-bottom: 8px;
+       border: whitesmoke 1px solid;
+       width: 100%;
+    }
+    .sam{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sam>div{
+        margin: 0px 15px 30px 15px;
+        width: 94%;
+    }
+    input{
+        width: 95%;
+        padding: 8px;
+        margin: 0px 0px 20px 0px;
+        border: 1px solid lightgray;
+    }
+    .fi button{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: 1px black solid;
+    }
+    .fi{
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .fi h2{
+        padding-bottom: 30px;
+    }
+    .kc{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .kc img{
+        width:94%;
+        margin-left: 15px;
+    }
+    .kc2{
+     width: 100%;
+     background-color: black;
+     text-align: center;
+     padding: 30px;
+    }
+    .kc2 p{
+        color: white;
+    }
+    .mc{
+        color: white;
+    }
+}
+
+
+
+
+@media(min-width: 601px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        overflow-x: hidden;
+    } 
+    
+    .nav{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        box-shadow: 0px 0px 10px 0px;
+        position: fixed;
+        background-color: white;
+        z-index: 2;
+    }
+    .ul{
+       list-style: none;
+       margin-left: auto; 
+    }
+    .ul li{
+        display: inline;
+        padding: 20px;
+    }
+    .ul a{
+        color: black;
+        text-decoration: none;
+    }
+    .ul a:hover{
+        background-color: lightgray;
+        padding: 6px;
+    }
+    .a{
+        color: black;
+        text-decoration: none;
+    }
+    .a:hover{
+        background-color: lightgray;
+        padding: 6px;
+    }
+    
+    .div{
+        width: 100%;
+        height: 100vh;
+        background-image: url(image/viktor-jakovlev-H0vuplqoX0c-unsplash.jpg);
+        background-size: cover;
+        /* background-position: 50% 50%; */
+        background-repeat: no-repeat;
+        /* text-align:center; */
+        /* overflow-x: hidden; */
+    }
+    .h1{
+        color: white;
+        left: 0;
+        line-height: 200px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+    }
+    .span{
+        background-color: black;
+        opacity: 0.8;
+        padding: 15px;
+        margin-right: 5px;
+    }
+    .h2{
+         margin: 30px;
+    }
+
+    .sec{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 20px 15px 0px 15px;
+        /* align-items: center; */
+    }
+    .sec>div{
+        /* margin: auto; */
+        width: 94%;
+        /* align-self: center; */
+        /* position: relative; */
+        margin: 30px 0px 0px 0px;
+
+
+    }
+    .div2{
+        width: 100%;
+    }
+    .img2{
+        width: 100%;
+    }
+    .p{
+        color: white;
+        background-color: black;
+        width: 130px;
+        position: absolute;
+        padding: 10px;
+    }
+    .div3{
+        width: 300px;
+    }
+    .img3{
+        width: 100%;
+    }
+    .p2{
+        color: white;
+        background-color: black;
+        width: 130px;
+        position: absolute;
+        padding: 10px;
+    }
+    .div4{
+        width: 300px;
+    }
+    .img4{
+        width: 100%;
+    }
+    .p3{
+        color: white;
+        background-color: black;
+        width: 130px;
+        position: absolute;
+        padding: 10px;
+    }
+    .div5{
+        width: 300px;
+    }
+    .img5{
+        width: 100%;
+    }
+    .p4{
+        color: white;
+        background-color: black;
+        width: 130px;
+        position: absolute;
+        padding: 10px;
+    }
+  
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 15px 0px 15px;    
+    }
+    .sec2>div{
+        width: 94%;
+        margin: 30px 0px 0px 0px;
+    }
+    .dd{
+        width: 100%;
+        padding: 30px;
+    }
+    .hr{
+        width: 97%;
+        border: 1px whitesmoke solid;
+    }
+    .dd h2,p,.hr{
+        margin-bottom: 20px;
+    }
+    .khalid{
+        width: 100%;
+
+    }
+    .gg{
+        width: 100%;
+    }
+    .aa{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btt{
+       padding-top: 8px;
+       padding-bottom: 8px;
+       border: whitesmoke 1px solid;
+       width: 100%;
+    }
+    .sam{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sam>div{
+        margin: 0px 15px 30px 15px;
+        width: 94%;
+    }
+    input{
+        width: 95%;
+        padding: 8px;
+        margin: 0px 0px 20px 0px;
+        border: 1px solid lightgray;
+    }
+    .fi button{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: 1px black solid;
+    }
+    .fi{
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .fi h2{
+        padding-bottom: 30px;
+    }
+    .kc{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .kc img{
+        width:94%;
+        margin-left: 15px;
+    }
+    .kc2{
+     width: 100%;
+     background-color: black;
+     text-align: center;
+     padding: 30px;
+    }
+    .kc2 p{
+        color: white;
+    }
+    .mc{
+        color: white;
+    }
+}
+
+
+
+
+@media(min-width: 980px){
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+} 
+
+.nav{
+    padding: 20px;
+    display: flex;
+    box-shadow: 0px 0px 0px 0px;
+}
+.ul li{
+    display: inline;
+    margin: 15px;
+}
+.ul{
+    margin-left: auto;
+}
+.ul a{
+    text-decoration: none;
+    color: black;
+}
+.ul a:hover{
+    background-color: lightgray;
+    padding: 10px;
+}
+.a{
+    color: black;
+    text-decoration: none;
+}
+.a:hover{
+    background-color: lightgray;
+    padding: 6px;
+}
+.div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/viktor-jakovlev-H0vuplqoX0c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding: 500px;
+}
+.h1{
+    color: white;
+}
+.span{
+    background-color: black;
+    opacity: 0.8;
+    padding: 15px;
+    margin-right: 5px;
+}
+.h2{
+     margin: 30px;
+}
+.div2{
+    width: 300px;
+}
+.img2{
+    width: 100%;
+}
+.p{
+    color: white;
+    background-color: black;
+    width: 130px;
+    position: absolute;
+    padding: 10px;
+}
+.div3{
+    width: 300px;
+}
+.img3{
+    width: 100%;
+}
+.p2{
+    color: white;
+    background-color: black;
+    width: 130px;
+    position: absolute;
+    padding: 10px;
+}
+.div4{
+    width: 300px;
+}
+.img4{
+    width: 100%;
+}
+.p3{
+    color: white;
+    background-color: black;
+    width: 130px;
+    position: absolute;
+    padding: 10px;
+}
+.div5{
+    width: 300px;
+}
+.img5{
+    width: 100%;
+}
+.p4{
+    color: white;
+    background-color: black;
+    width: 130px;
+    position: absolute;
+    padding: 10px;
+}
+.sec{
+    display: flex;
+    width: 100%;
+    /* padding: 0px; */
+    margin: 0px 0px 0px 10px;
+    flex-direction: row;
+}
+.sec>div{
+    margin: 0px 20px 0px 0px;
+}
+.sec2{
+    display: flex;
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+    flex-direction: row;
+}
+.sec2>div{
+    margin: 0px 20px 0px 0px;
+}
+.dd{
+    width: 100%;
+    padding: 30px;
+}
+.hr{
+    width: 97%;
+    border: 1px whitesmoke solid;
+}
+.dd h2,p,.hr{
+    margin-bottom: 20px;
+}
+.khalid{
+    width: 80px;
+}
+.gg{
+    width: 100%;
+}
+.aa{
+    margin: 10px;
+    width: 100%;
+}
+.pp{
+    width: 100%;
+}
+.pp2{
+    width: 100%;
+}
+.btt{
+   border: whitesmoke 1px solid;
+}
+.sam{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.sam>div{
+    width: 300px;
+    margin: 0px 20px 0px 20px;
+}
+input{
+    width: 95%;
+    padding: 8px;
+    margin: 0px 0px 20px 0px;
+    border: 1px solid lightgray;
+}
+.fi button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px black solid;
+}
+.fi{
+    padding: 20px;
+    margin-top: 50px;
+}
+.fi h2{
+    padding-bottom: 30px;
+}
+.kc{
+    width: 100%;
+    margin-top: 50px;
+}
+.kc img{
+    width:98%;
+}
+.kc2{
+ width: 100%;
+ background-color: black;
+ text-align: center;
+ padding: 30px;
+}
+.kc2 p{
+    color: white;
+}
+.mc{
+    color: white;
+}
+.mc:hover{
+    color: green;
+}}
